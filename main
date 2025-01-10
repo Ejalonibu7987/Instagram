@@ -1,1 +1,513 @@
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+}
 
+.main-section {
+  width: 630px;
+  height: 6672.78px;
+}
+
+.stories {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+  width: 630px;
+  height: 84px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.story-box {
+  width: 64px;
+  height: 84px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-box div {
+  font-family: Roboto;
+  font-size: 11px;
+}
+
+.story {
+  width: 60.7px;
+  height: 60.7px;
+  border-radius: 50px;
+  border-color: brown;
+  border-style: solid;
+  border-width: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story img {
+  width: 56px;
+  height: 56px;
+  border-radius: 40px;
+}
+
+.main-post {
+  padding-left: 100px;
+  margin-bottom: 20px;
+}
+
+.post-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.post-profile {
+  width: 33px;
+  height: 33px;
+  border-radius: 30px;
+  border-color: brown;
+  border-style: solid;
+  border-width: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  position: relative;
+}
+
+.post-profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.toolpit .name {
+  font-family: Roboto;
+  color: gray;
+  font-size: 14px;
+}
+.toolpit .username {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.thread {
+  font-family: Arial;
+  font-size: 12px;
+  width: 105px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 15px;
+  padding-left: 4px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+
+.post-profile .toolpit {
+  width: 360px;
+  height: 300px;
+  background-color: white;
+  position:absolute;
+  bottom: -300px;
+  right: -330px;
+  border-radius: 8px;
+  white-space: nowrap;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+  opacity:0;
+  transition: opacity 0.15s;
+}
+
+.post-profile:hover .toolpit {
+  opacity: 1;
+  pointer-events: fill;
+}
+.story2-group {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.story2 {
+  width: 55px;
+  height: 55px;
+  border-radius: 60px;
+  border-color: brown;
+  border-style: solid;
+  border-width: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.story2 img {
+  width: 52px;
+  height: 52px;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+  margin-left: 40px;
+  margin-bottom: 15px;
+}
+
+.num {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.potrait {
+  display: flex;
+  justify-content: space-between;
+}
+
+.potrait img {
+  height: 110px;
+  width: 118px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.button{
+  display: flex;
+  width: 340px;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.message-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(24, 115, 243);
+  border: none;
+  color: white;
+  width: 166px;
+  height: 30px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+.message-button img{
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+.follow-button {
+  background-color: rgb(204, 200, 200);
+  border: none;
+  color: black;
+  width: 166px;
+  height: 30px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+}
+.name-loc-more {
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-loc-more .more-info img{
+ width: 10px;
+}
+
+.post-name {
+  font-weight: bold;
+  font-size: 14px;
+}
+.post-location {
+  font-size: 13px;
+}
+
+span img {
+  width: 10px;
+  object-fit: cover;
+}
+span {
+  color: gray;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.post-pic img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.like-comment-save {
+  display: flex;
+  justify-content: space-between;
+  width: 405px;
+  margin-bottom: 10px;
+}
+
+.like-comment-save img {
+  width: 28px;
+  height: 28px;
+}
+
+.like-comment {
+  display: flex;
+  justify-content: space-between;
+  width: 115px;
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.likes img {
+  width: 15px;
+  height: 15px;
+  border-radius: 40px;
+  object-fit: cover;
+  margin-right: 4px;
+}
+.like-numbers {
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.name-caption {
+  font-family: Roboto,Arial;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.name-caption span {
+  color: black;
+  font-size: 14px;
+}
+
+.all-comment {
+  font-family: Arial;
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 8px;
+}
+
+.add-comment-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 405px;
+  font-family: Arial;
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 18px;
+}
+
+.add-comment-div img {
+  width: 18px;
+  height: 18px;
+}
+
+.add-comment-div input {
+  display: flex;
+  width: 405px;
+  border: none;
+  background-color: white;
+  background-image: url('icons/');
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+}
+
+.post-breaker {
+  width: 405px;
+  border: solid;
+  border-radius: 2px;
+  border-width: 0.5px;
+  border-color: rgb(218, 218, 218);
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  margin-top: 36px;
+  margin-right: 0px;
+  padding-left: 64px;
+  box-sizing: border-box;
+  position: static;
+  width: 383px;
+}
+
+.acc-profile {
+  width: 319px;
+  height: 44px;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Roboto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.acc-img {
+  padding-right: 12px;
+}
+.acc-img img {
+  width: 44px;
+  height: 44px;
+  border-radius: 45px;
+}
+
+.acc-name-group1 {
+  width: 195px;
+}
+
+.username {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.acc-name {
+  font-size: 14px;
+  color: gray;
+}
+
+.acc-profile .switch-button {
+  color: rgb(0, 149, 255);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.suggestion-box {
+  width: 287px;
+  height: 11px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.suggestion {
+  display: flex;
+  color: gray;
+  font-size: 14px;
+}
+
+.all-suggestion {
+  font-size: 12px;
+}
+
+.suggestion-profile {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 315px;
+  height: 300px;
+}
+
+.acc-profile2 {
+  width: 319px;
+  height: 44px;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Roboto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 15px;
+  margin-top: 12px;
+}
+
+.acc-profile2-img {
+  padding-right: 12px;
+}
+
+.acc-profile2-img img {
+  width: 44px;
+  height: 44px;
+  border-radius: 45px;
+}
+
+.acc-name-group2 {
+  width: 195px;
+}
+
+.acc-name-group .follow2-button {
+  color: rgb(0, 149, 255);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.acc-profile2 .username {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.acc-profile2 .acc-name {
+  font-size: 12px;
+  color: gray;
+}
+
+.acc-profile2 .switch-button {
+  color: rgb(0, 149, 255);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.links {
+  margin-bottom: 30px;
+  margin-top: 40px;
+  font-family: Roboto;
+  color: rgb(202, 202, 202);
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.links a{
+  color: rgb(202, 202, 202);
+  font-size: 12px;
+  text-decoration: none;
+}
+.copywright {
+  font-family: Roboto;
+  font-size: 12px;
+  color: rgb(202, 202, 202);
+  padding-left: 16px;
+  padding-right: 16px;
+}
